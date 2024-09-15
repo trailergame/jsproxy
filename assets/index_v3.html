@@ -29,7 +29,7 @@
 </head>
 <body>
   <div class="box">
-    <input id="txtURL" type="text" value="www.google.com" autofocus>
+    <input id="txtURL" type="text" autocomplete="off" placeholder="https://" autofocus>
   </div>
   <div class="box">
     <button id="btnGo">Go</button>
@@ -87,7 +87,7 @@
 
       case SW_READY:
         console.log('sw ready')
-        showIcons()
+       // showIcons()
         sendMsgToSw(PAGE_CONF_GET)
         break
       }
@@ -164,5 +164,21 @@
       updateSelected()
     }
   </script>
+
+  </div>
+  <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR> <BR><BR>
+    <footer>
+    <div><center><table><tbody><tr>
+    <td><div size="1" face="arial" color="blue" style="font-family:'Courier New'"><center>Learning, Sharing, Creating.<br>
+    </center></div><br> 
+    </td>
+   <td>  <div><center>
+    <div class="image-container" style="display:none;visibility:hidden;position: fixed;bottom: 0;right: 0;width: 1px;height: 1px;">
+   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=GkZIFfMEQUDlxBXLNx5RdkICm_lrlMPN0mLbZ_2XVJ4&cl=ffffff&w=a"></script>
+</div>
+  </center></div></td>
+    </tr></tbody></table></center></div>
+    </footer>
+  
 </body>
 </html>
